@@ -32,12 +32,39 @@
         "type": "indirect"
       }
     },
+    "rexpaint-master": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "src-rexpaint-master": "src-rexpaint-master",
+        "zip": "zip"
+      },
+      "locked": {
+        "dir": "master",
+        "lastModified": 1651556833,
+        "narHash": "sha256-Sr9RFAPIjq3Qd/QXj3Us4sNGg0CTiQ9y7fGD8h1gVj4=",
+        "owner": "nim-nix-pkgs",
+        "repo": "rexpaint",
+        "rev": "9fd46a3e727083bea4f364eed978fc1791828ffa",
+        "type": "github"
+      },
+      "original": {
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "rexpaint",
+        "type": "github"
+      }
+    },
     "root": {
       "inputs": {
         "flakeNimbleLib": "flakeNimbleLib",
         "nixpkgs": "nixpkgs",
-        "src-rexpaint-master": "src-rexpaint-master",
-        "zip": "zip"
+        "rexpaint-master": "rexpaint-master"
       }
     },
     "src-rexpaint-master": {
@@ -77,20 +104,22 @@
     "zip": {
       "inputs": {
         "flakeNimbleLib": [
+          "rexpaint-master",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "rexpaint-master",
           "nixpkgs"
         ],
         "src-zip-0_3_1": "src-zip-0_3_1"
       },
       "locked": {
         "dir": "0_3_1",
-        "lastModified": 1651918630,
-        "narHash": "sha256-C8QN5Q3RFKBJABVXurB3/QXJDnuEasEWg0vmt/5A65o=",
+        "lastModified": 1651556292,
+        "narHash": "sha256-w3cAqmBo8wkS0E4zBcxzViGeLZxHdwocjHF252sVW1w=",
         "owner": "nim-nix-pkgs",
         "repo": "zip",
-        "rev": "5f62a53c0d39736fde0c682b7403d4e5333edde8",
+        "rev": "04c0b3e1a02ba029457bffcf75300e05f45bf7de",
         "type": "github"
       },
       "original": {
