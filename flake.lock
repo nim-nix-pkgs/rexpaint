@@ -48,11 +48,11 @@
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1667323293,
-        "narHash": "sha256-vBR+swj5cBQbXxxaNMQTHpsNqa1vrxoBh4jAi1XG5NA=",
+        "lastModified": 1667330445,
+        "narHash": "sha256-e4B9sevph8oJdRnAkoK6cGtOZcUj68z2tInwxxUfKRg=",
         "owner": "nim-nix-pkgs",
         "repo": "rexpaint",
-        "rev": "9f0aaa12675718efa776d6d3e3d8f521f6651e5d",
+        "rev": "f1f7bd70be2acb58b410d8d40f6a26fa31add5f3",
         "type": "github"
       },
       "original": {
@@ -118,11 +118,11 @@
       },
       "locked": {
         "dir": "0_3_1",
-        "lastModified": 1667322819,
-        "narHash": "sha256-pUczVXkHDslu9V5yHjPs0S+ekuAMYj15DquixZ947xo=",
+        "lastModified": 1667330047,
+        "narHash": "sha256-CKLZ6Etu95W8sgfzCLwIQTCOR6gNMCqlZPIUdIQ3Y30=",
         "owner": "nim-nix-pkgs",
         "repo": "zip",
-        "rev": "2a3958629d9c4e448cd7b316d966854b974a6d0b",
+        "rev": "5be28856a448537b8421fc95853e37d70e74f4d2",
         "type": "github"
       },
       "original": {
